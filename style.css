@@ -1,0 +1,141 @@
+html{
+    height:100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    margin: 0;
+    background-attachment: fixed;
+    background: linear-gradient(145deg, pink, cyan, yellow, green);
+}
+header {
+    height:20px;
+}
+
+.container {
+    width:210px;
+    height:400px;
+    align: center;
+    margin: 0px auto;
+    border: 1px solid blueviolet;
+    background: repeating-linear-gradient( #ecf1ec,  #ecf1ec 50%, #dce0dc 50%, #c9cfc9 100% ) ;
+    border-radius: 3%;
+    box-shadow: 5px 5px 3px rgb(53, 53, 12), -5px -5px 3px rgb(53, 53, 12) ;
+}
+.result {
+    height: 100px;
+    background: repeating-linear-gradient( #b1c7b1,  #b1c7b1 50%, #abbeab 50%, #758675 100% );
+    margin: 10px 5px 10px 5px;
+    box-shadow: 1px 2px rgb(80, 116, 28);
+    
+    font-weight: 600;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 2px;
+    
+}
+.preview {
+    height:50px; 
+    color:rgb(21, 133, 35);
+    font-size: 19px;
+    text-align: right;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.output{
+    height: 50px;
+    font-size: 1.6rem;
+    padding-right: 2px;
+    padding-left: 2px;
+    line-height: 1.5rem;
+    text-align: right;
+}
+.button-pannel {
+    margin: 0 auto;
+    padding-left: 5px;
+    height: 230px;
+    align: center;
+    display:inline-block;
+}
+.footer{
+    height: 30px;
+    margin: 0 4px 5px 4px;
+    text-align: center;
+    color: rgba(173, 35, 53) ;
+    font-weight: 900;
+    position:relative;
+    top: -50px;
+    line-height: 0.8;
+}
+   
+button {
+    width: 40px;
+    height: 40px;
+    margin: 4px 0 4px 2px;
+    background: repeating-linear-gradient(rgb(100, 220, 236), rgb(172, 226, 233) 50%,rgb(100, 220, 236) 50%, rgb(38, 126, 138) 100% );
+    cursor: pointer;
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 10%;
+    font-size: 21px;
+    font-weight: 700;
+}
+button:hover {
+    background: repeating-linear-gradient( rgb(255, 255, 255),  rgb(255, 255, 255) 50%, rgb(231, 231, 222) 50%, rgb(206, 206, 197) 100% ) !important;
+    color: black !important;
+}
+.span-2 {
+    width: 93px;
+    border-radius: 7%;
+}
+.span-3{
+    height:90px;
+}
+.flow{
+    position: relative;
+    top: -25px;
+}
+.move{
+    position: relative;
+    top: -50px;
+}
+.tiny{
+    font-size:12px;
+}
+button:nth-child(1){
+    background: repeating-linear-gradient( rgb(173, 35, 53),  rgb(211, 51, 73) 50%, rgb(160, 41, 57) 50%, rgb(136, 25, 40) 100% );
+    color:white;
+}
+button:nth-child(2){
+    background: repeating-linear-gradient( rgb(173, 35, 53),  rgb(211, 51, 73) 50%, rgb(160, 41, 57) 50%, rgb(136, 25, 40) 100% );
+    color:white;
+}
+button:nth-child(3){
+    background: repeating-linear-gradient( rgb(255, 254, 196),  rgb(255, 254, 196) 50%, rgb(236, 235, 131) 50%, rgb(197, 195, 51) 100% );
+}
+button:nth-child(4){
+    background: repeating-linear-gradient( rgb(255, 254, 196),  rgb(255, 254, 196) 50%, rgb(236, 235, 131) 50%, rgb(197, 195, 51) 100% );
+    font-size: px;
+}
+button:nth-child(8){
+    background: repeating-linear-gradient( rgb(255, 254, 196),  rgb(255, 254, 196) 50%, rgb(236, 235, 131) 50%, rgb(197, 195, 51) 100% );
+    font-size: px;
+}
+button:nth-child(12){
+    background: repeating-linear-gradient( rgb(255, 254, 196),  rgb(255, 254, 196) 50%, rgb(236, 235, 131) 50%, rgb(197, 195, 51) 100% );
+    font-size: px;
+}
+button:nth-child(16){
+    background: repeating-linear-gradient( rgb(255, 254, 196),  rgb(255, 254, 196) 50%, rgb(236, 235, 131) 50%, rgb(197, 195, 51) 100% ) ;
+    position: relative;
+    right: 104px;
+}
+
+button:nth-child(18){
+    background: repeating-linear-gradient( rgb(173, 35, 53),  rgb(211, 51, 73) 50%, rgb(160, 41, 57) 50%, rgb(136, 25, 40) 100% );
+    color:white;
+    position: relative;
+    left: 50px;
+   
+}
